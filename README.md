@@ -12,4 +12,4 @@ Features:
 * Administration of existent users
 
 
-This code is licensed under GPL v3 or later.
+This code is licensed under GPL v3 or later. Feel free to use this code for your website and to change the code as you like.
