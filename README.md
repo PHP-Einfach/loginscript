@@ -1,5 +1,7 @@
 # Loginscript 
-Dies ist ein simpler Loginscript inklusive Registrierung und internem Bereich. Eine ausführliche Dokumentation und Schritt-für-Schritt-Anleitung ist auf [PHP-Einfach.de - Loginscript](http://www.php-einfach.de/experte/php-codebeispiele/loginscript/) zu finden.
+Dies ist ein simpler Loginscript inklusive Registrierung und internem Bereich. Eine ausführliche Dokumentation und Schritt-für-Schritt-Anleitung ist auf [PHP-Einfach.de - Loginscript](http://www.php-einfach.de/experte/php-codebeispiele/loginscript/) zu finden. 
+
+**Download**: [.zip](https://github.com/PHP-Einfach/loginscript/archive/master.zip) 
 
 ## Installation
 Nach dem Download des [ZIP-Archives](https://github.com/PHP-Einfach/loginscript/archive/master.zip) müsst ihr zuerst die notwendige Datenbanktabelle erstellen. Die SQL-Befehle findet ihr in der Datei `users.sql` oder alternativ führt die folgenden SQL-Befehle in z.B. phpMyAdmin aus:
