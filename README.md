@@ -1,8 +1,8 @@
 # Loginscript 
-Dies ist ein simpler Loginscript inklusive Registrierung und internem Bereich. Eine ausführliche Dokumentation und Schritt-für-Schritt-Anleitung ist auf [http://www.php-einfach.de/experte/php-codebeispiele/loginscript/](PHP-Einfach.de - Loginscript) zu finden.
+Dies ist ein simpler Loginscript inklusive Registrierung und internem Bereich. Eine ausfÃ¼hrliche Dokumentation und Schritt-fÃ¼r-Schritt-Anleitung ist auf [PHP-Einfach.de - Loginscript](http://www.php-einfach.de/experte/php-codebeispiele/loginscript/) zu finden.
 
 ## Installation
-Nach dem Download des [](ZIP-Archiv) müsst ihr zuerst die notwendige Datenbanktabelle erstellen. Die SQL-Befehle findet ihr in der Datei `users.sql` oder alternativ führt die folgenden SQL-Befehle in z.B. phpMyAdmin aus:
+Nach dem Download des [ZIP-Archives](https://github.com/PHP-Einfach/loginscript/archive/master.zip) mÃ¼sst ihr zuerst die notwendige Datenbanktabelle erstellen. Die SQL-Befehle findet ihr in der Datei `users.sql` oder alternativ fÃ¼hrt die folgenden SQL-Befehle in z.B. phpMyAdmin aus:
 
 ```sql
 CREATE TABLE IF NOT EXISTS `users` (
@@ -20,4 +20,14 @@ CREATE TABLE IF NOT EXISTS `users` (
 ```
 
 
-Als nächsten Stritt müsst ihr die Verbindungsdaten zu eurer Datenbank anpassen. Öffnet dazu die `inc/config.inc.php` und tragt dort den Benutzernamen, das Passwort, und den Datenbanknamen eurer MySQL-Datenbank ein.
+Als nÃ¤chsten Stritt mÃ¼sst ihr die Verbindungsdaten zu eurer Datenbank anpassen. Ã–ffnet dazu die `inc/config.inc.php` und tragt dort den Benutzernamen, das Passwort, und den Datenbanknamen eurer MySQL-Datenbank ein.
+
+## Screenshots
+### Startseite:
+![Index](/screenshots/index.png)
+
+### Registrierung:
+![Registrierung](/screenshots/registrierung.png)
+
+### Interner Bereich (nach erfolgreichem Login):
+![Interner Bereich](/screenshots/interner_bereich.png)
