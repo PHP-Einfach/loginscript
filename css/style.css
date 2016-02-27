@@ -1,0 +1,78 @@
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-brand {
+	font-size: 2em;
+	color: #fff;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #ccc;
+}
+
+.navbar-brand .logo {
+	color: #5cb85c;
+}
+
+.main-container {
+	margin-top: 20px;
+}
+
+.registration-form {
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.small-container-500 {
+	max-width: 500px;
+  	padding: 15px;
+  	margin: 0 auto;
+}
+
+.small-container-330 {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+.small-container .small-container-heading,
+.small-container .checkbox {
+  margin-bottom: 10px;
+}
+.small-container .checkbox {
+  font-weight: normal;
+}
+.small-container .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.small-container .form-control:focus {
+  z-index: 2;
+}
+
+/* Signin */
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.login td {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.login {
+	color: #fff;
+}
