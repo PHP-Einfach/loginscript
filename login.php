@@ -3,14 +3,7 @@ session_start();
 require_once("inc/config.inc.php");
 require_once("inc/functions.inc.php");
 
-include("templates/header.inc.php");
-?>
- <div class="container small-container-330 form-signin">
-  <form action="login.php" method="post">
-	<h2 class="form-signin-heading">Login</h2>
- <?php 
-
-
+$error_msg = "";
 if(isset($_POST['email']) && isset($_POST['passwort'])) {
 	$email = $_POST['email'];
 	$passwort = $_POST['passwort'];
@@ -37,7 +30,7 @@ if(isset($_POST['email']) && isset($_POST['passwort'])) {
 		header("location: internal.php");
 		exit;
 	} else {
-		echo  "E-Mail oder Passwort war ungültig<br><br>";
+		$error_msg =  "E-Mail oder Passwort war ungültig<br><br>";
 	}
 
 }
@@ -45,6 +38,17 @@ if(isset($_POST['email']) && isset($_POST['passwort'])) {
 $email_value = "";
 if(isset($_POST['email']))
 	$email_value = htmlentities($_POST['email']); 
+
+include("templates/header.inc.php");
+?>
+ <div class="container small-container-330 form-signin">
+  <form action="login.php" method="post">
+	<h2 class="form-signin-heading">Login</h2>
+	
+<?php 
+if(isset($error_msg) && !empty($error_msg)) {
+	echo $error_msg;
+}
 ?>
 	<label for="inputEmail" class="sr-only">E-Mail</label>
 	<input type="email" name="email" id="inputEmail" class="form-control" placeholder="E-Mail" value="<?php echo $email_value; ?>" required autofocus>
