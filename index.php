@@ -45,8 +45,8 @@ include("templates/header.inc.php")
        </div>
         <div class="col-md-4">
           <h2>Webhosting</h2>
-          <p>Möchtet ihr diesen Loginscript für eure Website nutzen, so benötigt ihr PHP fähigen Webspace. Unsere Seite ist selber bei All-Inkl gehostet und über viele Jahre haben wir dort sehr gute Erfahrungen erreicht, sowohl was die technische Ausstattung der Server angeht als auch was den Service angeht.</p>
-          <p><a class="btn btn-default" href="http://all-inkl.com/?partner=477397" target="_blank" role="button">Weitere Informationen &raquo;</a></p>
+          <p>Möchtet ihr diesen Loginscript für eure Website nutzen, so benötigt ihr PHP fähigen Webspace. Auf unserer Website haben wir die verschiedenen Webhosting-Angebote ausführlich getesten damit ihr den idealen Webspace für eure Website findet.</p>
+          <p><a class="btn btn-default" href="http://www.php-einfach.de/webhosting" target="_blank" role="button">Weitere Informationen &raquo;</a></p>
         </div>
       </div>
 	</div> <!-- /container -->
