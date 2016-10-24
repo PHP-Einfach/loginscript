@@ -36,4 +36,4 @@ Als nächsten Stritt müsst ihr die Verbindungsdaten zu eurer Datenbank anpassen
 
 
 ## Webhosting
-Falls ihr auf der Suche nach günstigen Webhosting für euren Login-Script, kann ich euch die Webhosting-Angebote von netcup empfehlen. Preis pro Monat beginnt ab 1,99 Euro für vollwertigen Webspace. Mit den Gutscheinen von [www.netcupgutscheine.de](http://www.netcupgutscheine.de) könnt ihr ebenfalls nochmal 5 Euro sparen.
+Falls ihr auf der Suche nach günstigen Webhosting für euren Login-Script, kann ich euch die Webhosting-Angebote von netcup empfehlen. Preis pro Monat beginnt ab 1,99 Euro für vollwertigen Webspace. Mit den Gutscheinen von [www.netcupgutscheine.de](https://www.netcupgutscheine.de) könnt ihr ebenfalls nochmal 5 Euro sparen.
