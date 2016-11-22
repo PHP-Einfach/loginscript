@@ -46,7 +46,7 @@ include("templates/header.inc.php")
         <div class="col-md-4">
           <h2>Webhosting</h2>
           <p>Möchtet ihr diesen Loginscript für eure Website nutzen, so benötigt ihr PHP fähigen Webspace. Auf unserer Website haben wir die verschiedenen Webhosting-Angebote ausführlich getesten damit ihr den idealen Webspace für eure Website findet.</p>
-          <p><a class="btn btn-default" href="http://www.php-einfach.de/webhosting" target="_blank" role="button">Weitere Informationen &raquo;</a></p>
+          <p><a class="btn btn-default" href="http://www.webhosterwissen.de" target="_blank" role="button">Weitere Informationen &raquo;</a></p>
         </div>
       </div>
 	</div> <!-- /container -->
