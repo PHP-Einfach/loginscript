@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 ```
 
 
-Als nächsten Stritt müsst ihr die Verbindungsdaten zu eurer Datenbank anpassen. Öffnet dazu die `inc/config.inc.php` und tragt dort den Benutzernamen, das Passwort, und den Datenbanknamen eurer MySQL-Datenbank ein.
+Als nächsten Schritt müsst ihr die Verbindungsdaten zu eurer Datenbank anpassen. Öffnet dazu die `inc/config.inc.php` und tragt dort den Benutzernamen, das Passwort, und den Datenbanknamen eurer MySQL-Datenbank ein.
 
 ## Screenshots
 ### Startseite:
